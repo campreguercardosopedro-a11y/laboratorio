@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empresa XPTO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="framework.css" />
+  </head>
+  <body>
+    <header class="position-sticky bg-white shadow">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <h1 class="text-success">Empresa XPTO</h1>
+          <div class="d-flex d-lg-none column-gap-3">
+            <a
+              href=""
+              class="text-dark d-inline-block text-decoration-none position-relative"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span
+                class="bg-warning text-white px-1 rounded-1 position-absolute bottom-15 left-15"
+              >
+                0
+              </span>
+            </a>
+            <i class="fa-solid fa-bars" id="hamburguer"></i>
+          </div>
+          <nav class="d-none d-lg-block" id="menu">
+            <ul class="d-flex list-unstyled column-gap-3">
+              <li>
+                <a
+                  href=""
+                  class="text-decoration-none text-dark d-inline-block"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-decoration-none text-dark d-inline-block"
+                >
+                  Sobre
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-decoration-none text-dark d-inline-block"
+                >
+                  Serviços
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-decoration-none text-dark d-inline-block"
+                >
+                  Produtos
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-decoration-none text-dark d-inline-block"
+                >
+                  Contato
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-dark d-inline-block text-decoration-none position-relative"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <span
+                    class="bg-warning text-white px-1 rounded-1 position-absolute top-1"
+                  >
+                    0
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="py-5 hero">
+      <div
+        class="container d-lg-flex py-5 justify-content-between align-items-center"
+      >
+        <div class="mb-5 mb-lg-0">
+          <h2 class="text-white fs-1 text-center text-lg-start">
+            Serviços completos para
+            <span class="d-block text-uppercase">
+              residências e comércios
+            </span>
+          </h2>
+          <h3 class="text-white fs-2 text-center text-lg-start">
+            Jardinagem e manutenção
+          </h3>
+        </div>
+        <form action="" method="post" class="bg-warning p-5 shadow">
+          <h4 class="text-white text-uppercase text-center">Agendamento</h4>
+          <p class="text-white text-center">Informe seus dados abaixo</p>
+          <input
+            type="text"
+            placeholder="Nome"
+            required
+            name="nome"
+            class="d-block w-100 mt-1 form-control"
+          />
+          <input
+            type="email"
+            placeholder="E-mail"
+            required
+            name="email"
+            class="d-block w-100 mt-1 form-control"
+          />
+          <input
+            type="number"
+            placeholder="Telefone"
+            required
+            name="telefone"
+            class="d-block w-100 mt-1 form-control"
+          />
+          <input
+            type="date"
+            placeholder="Data"
+            required
+            name="data"
+            class="d-block w-100 mt-1 form-control"
+          />
+          <button
+            type="submit"
+            class="d-block w-100 mt-1 btn btn-dark text-uppercase"
+          >
+            Agendar
+          </button>
+        </form>
+      </div>
+    </section>
+    <section class="py-5 servicos">
+      <div class="container py-5">
+        <h2 class="text-center text-uppercase fs-1 fw-light mb-5">Serviços</h2>
+        <div class="d-lg-flex column-gap-3">
+          <div class="mb-5 mb-lg-0">
+            <div
+              class="capa shadow"
+              style="
+                background-image: url(&quot;./img/servico-de-corte-e-manutencao.png&quot;);
+              "
+            ></div>
+            <h3 class="fs-2 fw-normal text-warning mt-3">Corte e manutenção</h3>
+            <p class="mt-1 mb-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam, molestiae quasi excepturi vel, alias et blanditiis
+              perferendis odit deserunt pariatur neque est dolorem! Laudantium
+              nesciunt, consectetur ipsa dolore optio debitis.
+            </p>
+            <a href="" class="text-decoration-none">
+              <span>+</span> <span>Saiba mais</span>
+            </a>
+          </div>
+          <div class="mb-5 mb-lg-0">
+            <div
+              class="capa shadow"
+              style="
+                background-image: url(&quot;./img/servico-de-adubacao-e-fertilizacao.webp&quot;);
+              "
+            ></div>
+            <h3 class="fs-2 fw-normal text-warning mt-3">
+              Adubação e fertilização
+            </h3>
+            <p class="mt-1 mb-1">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+              expedita quisquam perferendis aliquam voluptatum. Magnam ullam
+              aliquam ut laudantium aperiam atque, eveniet, deserunt molestiae
+              nihil in consectetur delectus? Odio, impedit!
+            </p>
+            <a href="" class="text-decoration-none">
+              <span> + </span>
+              <span> Saiba mais </span>
+            </a>
+          </div>
+          <div>
+            <div
+              class="capa shadow"
+              style="
+                background-image: url(&quot;./img/servico-controle-de-pragas.jpg&quot;);
+              "
+            ></div>
+            <h3 class="fs-2 fw-normal text-warning mt-3">Controle de pragas</h3>
+            <p class="mt-1 mb-1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reiciendis, officiis iste nesciunt, repellendus quis facere eum
+              dolore iusto sequi possimus voluptate, sint sapiente fuga incidunt
+              maiores consequuntur ratione sunt necessitatibus?
+            </p>
+            <a href="" class="text-decoration-none"
+              ><span> + </span> <span> Saiba mais </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-success text-white py-5 sobre">
+      <div class="container py-5">
+        <h2 class="text-center text-uppercase fs-1 fw-light mb-5">Sobre</h2>
+        <p class="mb-5 text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ea iusto
+          quas nihil a ipsam esse velit similique. Exercitationem quam
+          architecto ut eligendi consectetur officia veniam corporis et tempore.
+          Earum.
+        </p>
+        <div class="d-lg-flex column-gap-3 align-items-center">
+          <div class="w-lg-50 mb-5 mb-lg-0">
+            <img
+              src="./img/empresa.jpg"
+              alt="Fachada da empresa"
+              class="img-fluid"
+            />
+          </div>
+          <ul class="w-lg-50 list-unstyled">
+            <li class="py-2 px-3">
+              <h3 class="text-uppercase mb-1">Missão</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                labore incidunt beatae ex sequi illum dolore? Natus, dolorem
+                adipisci voluptate deserunt nostrum quidem, corrupti tempora,
+                hic illum perferendis maiores asperiores.
+              </p>
+            </li>
+            <li class="py-2 px-3">
+              <h3 class="text-uppercase mb-1">Visão</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum,
+                tenetur aut nemo voluptate obcaecati id soluta non minus
+                inventore beatae perspiciatis suscipit sunt error eligendi dicta
+                cupiditate corporis cum? Corporis?
+              </p>
+            </li>
+            <li class="py-2 px-3">
+              <h3 class="text-uppercase mb-1">Valores</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dolores voluptas a nesciunt expedita? Quisquam sunt eveniet
+                dolorum assumenda optio, natus at. Veniam dignissimos ut
+                aspernatur voluptates nostrum assumenda obcaecati voluptatum.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="produtos py-5">
+      <div class="container py-5">
+        <h2 class="text-center mb-5 text-uppercase fs-1 fw-light">Produtos</h2>
+        <div class="d-lg-flex column-gap-3">
+          <div class="border p-2">
+            <div>
+              <img src="./img/borrifador.webp" alt="" class="img-fluid" />
+            </div>
+            <h3 class="mt-1">Borrifador</h3>
+            <p class="mt-1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span>
+                R$
+                <span class="text-success"> 19,90 </span>
+              </span>
+              <button class="btn btn-success d-inline-block">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+          <div class="border p-2">
+            <div>
+              <img src="./img/cortador-de-grama.jpg" alt="" class="img-fluid" />
+            </div>
+            <h3 class="mt-1">Cortador de grama</h3>
+            <p class="mt-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span>
+                R$
+                <span class="text-success"> 19,90 </span>
+              </span>
+              <button class="btn btn-success">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+          <div class="border p-2">
+            <div>
+              <img src="./img/rastelo.webp" alt="" class="img-fluid" />
+            </div>
+            <h3 class="mt-1">Rastelo</h3>
+            <p class="mt-1">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span>
+                R$
+                <span class="text-success"> 19,90 </span>
+              </span>
+              <button class="btn btn-success">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+          <div class="border p-2">
+            <div>
+              <img src="./img/tesoura-de-poda.webp" alt="" class="img-fluid" />
+            </div>
+            <h3 class="mt-1">Tesoura de poda</h3>
+            <p class="mt-1">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="d-flex justify-content-between align-items-center mt-2">
+              <span>
+                R$
+                <span class="text-success"> 19,90 </span>
+              </span>
+              <button class="btn btn-success">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-warning text-white py-5 numeros text-center">
+      <div class="container py-5 d-lg-flex">
+        <div class="mb-5 mb-lg-0 text-center">
+          <i class="fa-solid fa-calendar-days fs-1"></i>
+          <h3 class="fs-2 mt-1">20</h3>
+          <p class="mt-1">Anos de experiência</p>
+        </div>
+        <div class="mb-5 mb-lg-0">
+          <i class="fa-solid fa-user-group fs-1"></i>
+          <h3 class="fs-2 mt-1">350+</h3>
+          <p class="mt-1">Clientes atendidos</p>
+        </div>
+        <div class="mb-5 mb-lg-0">
+          <i class="fa-solid fa-list-check fs-1"></i>
+          <h3 class="fs-2 mt-1">1200+</h3>
+          <p class="mt-1">Projetos desenvolvidos</p>
+        </div>
+        <div>
+          <i class="fa-regular fa-clock fs-1"></i>
+          <h3 class="fs-2 mt-1">35000</h3>
+          <p class="mt-1">Horas de dedicação</p>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 marcas">
+      <div class="container py-5">
+        <h2 class="fs-1 text-uppercase fw-light text-center mb-5">
+          Marcas atendidas
+        </h2>
+        <div>
+          <div class="d-flex">
+            <div
+              style="background-image: url(&quot;./img/cliente1.png&quot;)"
+            ></div>
+            <div
+              style="background-image: url(&quot;./img/cliente2.png&quot;)"
+            ></div>
+            <div
+              style="background-image: url(&quot;./img/cliente3.png&quot;)"
+            ></div>
+            <div
+              style="background-image: url(&quot;./img/cliente4.png&quot;)"
+            ></div>
+          </div>
+          <div class="d-flex">
+            <div
+              style="background-image: url(&quot;./img/cliente5.png&quot;)"
+            ></div>
+            <div
+              style="background-image: url(&quot;./img/cliente6.png&quot;)"
+            ></div>
+            <div
+              style="background-image: url(&quot;./img/cliente7.png&quot;)"
+            ></div>
+            <div
+              style="background-image: url(&quot;./img/cliente8.png&quot;)"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-success py-5 depoimentos">
+      <div class="container py-5">
+        <h2 class="text-center text-uppercase text-white fs-1 mb-5 fw-light">
+          Depoimentos
+        </h2>
+        <div class="d-lg-flex column-gap-3">
+          <iframe
+            class="d-block w-100 mb-5 mb-lg-0"
+            src="https://www.youtube.com/embed/CcSIvhDlYWw?si=vf6e5C1zXaT6hIGp"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="d-block w-100 mb-5 mb-lg-0"
+            src="https://www.youtube.com/embed/z7TxCHe4I28?si=PmQWCfEgTwFNcl8W"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="d-block w-100"
+            src="https://www.youtube.com/embed/t06RUxPbp_c?si=oTQVx_UBmomPxqLK"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 galeria bg-light">
+      <div class="py-5 container">
+        <h2 class="text-center text-uppercase fw-light fs-1 mb-5">Galeria</h2>
+        <div class="d-flex flex-wrap">
+          <div
+            style="background-image: url(&quot;./img/galeria1.jfif&quot;)"
+          ></div>
+          <div
+            style="background-image: url(&quot;./img/galeria2.jfif&quot;)"
+          ></div>
+          <div
+            style="background-image: url(&quot;./img/galeria3.jfif&quot;)"
+          ></div>
+          <div
+            style="background-image: url(&quot;./img/galeria4.jfif&quot;)"
+          ></div>
+          <div
+            style="background-image: url(&quot;./img/galeria5.jpg&quot;)"
+          ></div>
+          <div
+            style="background-image: url(&quot;./img/galeria6.jfif&quot;)"
+          ></div>
+          <div
+            style="background-image: url(&quot;./img/galeria7.jpg&quot;)"
+          ></div>
+          <div
+            style="background-image: url(&quot;./img/galeria8.jpg&quot;)"
+          ></div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 planos">
+      <div class="container py-5">
+        <h2 class="text-center text-uppercase fs-1 fw-light mb-5">Planos</h2>
+        <div class="table-responsive">
+          <table class="w-100">
+            <tr>
+              <td></td>
+              <td>Standard</td>
+              <td>Premium</td>
+              <td>Business</td>
+            </tr>
+            <tr>
+              <td>Serviços</td>
+              <td>R$ 99,90</td>
+              <td>R$ 149,90</td>
+              <td>R$ 199,90</td>
+            </tr>
+            <tr>
+              <td>Serviço 1</td>
+              <td><i class="fa-solid fa-check text-success"></i></td>
+              <td><i class="fa-solid fa-check text-success"></i></td>
+              <td><i class="fa-solid fa-check text-success"></i></td>
+            </tr>
+            <tr>
+              <td>Serviço 2</td>
+              <td><i class="fa-solid fa-xmark text-danger"></i></td>
+              <td><i class="fa-solid fa-check text-success"></i></td>
+              <td><i class="fa-solid fa-check text-success"></i></td>
+            </tr>
+            <tr>
+              <td>Serviço 3</td>
+              <td><i class="fa-solid fa-xmark text-danger"></i></td>
+              <td><i class="fa-solid fa-xmark text-danger"></i></td>
+              <td><i class="fa-solid fa-check text-success"></i></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <a href="">Comprar</a>
+              </td>
+              <td>
+                <a href="">Comprar</a>
+              </td>
+              <td>
+                <a href="">Comprar</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="blog py-5 bg-light">
+      <div class="container py-5">
+        <h2 class="text-center text-uppercase fs-1 fw-light mb-5">Blog</h2>
+        <div class="d-lg-flex column-gap-3">
+          <div class="mb-5 mb-lg-0">
+            <div
+              style="background-image: url(&quot;./img/noticia1.webp&quot;)"
+              class="capa"
+            ></div>
+            <h3 class="mt-3 fs-2 fw-normal mb-1">Título 1</h3>
+            <p class="mb-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              sunt exercitationem ea temporibus, incidunt doloremque dolore
+              officia doloribus aut accusantium harum ut nisi animi expedita
+              soluta libero voluptatum voluptates quas?
+            </p>
+            <a href="" class="text-decoration-none text-warning">Leia mais</a>
+          </div>
+          <div class="mb-5 mb-lg-0">
+            <div
+              style="background-image: url(&quot;./img/noticia2.webp&quot;)"
+              class="capa"
+            ></div>
+            <h3 class="mt-3 fs-2 fw-normal mb-1">Título 2</h3>
+            <p class="mb-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              doloribus impedit voluptates soluta est delectus quisquam a
+              laboriosam eius, minus doloremque? Doloremque labore atque rem
+              sequi laboriosam dolorum repellendus tempore.
+            </p>
+            <a href="" class="text-decoration-none text-warning">Leia mais</a>
+          </div>
+          <div>
+            <div
+              style="background-image: url(&quot;./img/noticia3.webp&quot;)"
+              class="capa"
+            ></div>
+            <h3 class="mt-3 fs-2 fw-normal mb-1">Título 3</h3>
+            <p class="mb-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur tempora aliquam amet error itaque vitae at fugit
+              laborum nam! Nulla omnis quasi magni possimus. Reprehenderit
+              deleniti iste quia sapiente ipsa?
+            </p>
+            <a href="" class="text-decoration-none text-warning">Leia mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 bg-success text-white dados text-center">
+      <div class="container py-5 d-lg-flex column-gap-3">
+        <div class="mb-5 mb-lg-0">
+          <i class="fa-solid fa-location-dot fs-1"></i>
+          <span class="d-block mt-1 fs-5">
+            Rua Paraíso 123, Centro
+            <br />
+            Sales-SP
+          </span>
+        </div>
+        <div class="mb-5 mb-lg-0">
+          <i class="fa-solid fa-envelope fs-1"></i>
+          <span class="d-block mt-1 fs-5"> contato@empresaxpto.com.br </span>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone fs-1"></i>
+          <span class="d-block mt-1 fs-5"> 0800-123-4567 </span>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 call-to-action bg-warning text-white">
+      <div
+        class="container py-5 d-lg-flex justify-content-between align-items-center"
+      >
+        <h2 class="fw-light fs-2 mb-5 mb-lg-0">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </h2>
+        <a href=""> Agendar </a>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container py-5">
+        <h2 class="text-center fw-light text-uppercase fs-1 mb-5">
+          Fale Conosco
+        </h2>
+        <form action="" method="post">
+          <input
+            type="text"
+            class="d-block form-control w-100 mb-1"
+            placeholder="Nome"
+            required
+            name="nome"
+          />
+          <input
+            type="email"
+            class="d-block form-control w-100 mb-1"
+            placeholder="E-mail"
+            required
+            name="email"
+          />
+          <input
+            type="number"
+            class="d-block form-control w-100 mb-1"
+            placeholder="Telefone"
+            required
+            name="telefone"
+          />
+          <textarea
+            class="d-block form-control w-100 mb-1"
+            placeholder="Mensagem"
+            rows="5"
+            required
+            name="mensagem"
+          ></textarea>
+          <button class="d-block w-100 btn btn-success" type="submit">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-dark text-white py-5">
+      <div class="container d-lg-flex justify-content-between py-5">
+        <div class="w-lg-25 mb-5 mb-lg-0">
+          <h3 class="mb-1">Menu</h3>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Serviços</a></li>
+            <li><a href="">Produtos</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </div>
+        <div class="w-lg-25 mb-5 mb-lg-0">
+          <h3 class="mb-1">Produtos</h3>
+          <ul>
+            <li><a href="">Borrifador</a></li>
+            <li><a href="">Rastelo</a></li>
+            <li><a href="">Tesoura de poda</a></li>
+            <li><a href="">Cortador de grama</a></li>
+          </ul>
+        </div>
+        <div class="w-lg-25 mb-5 mb-lg-0">
+          <h3 class="mb-1">Serviços</h3>
+          <ul>
+            <li><a href="">Corte e manutenção</a></li>
+            <li><a href="">Adubação e fertilização</a></li>
+            <li><a href="">Controle de pragas</a></li>
+          </ul>
+        </div>
+        <div class="w-lg-25">
+          <h3 class="mb-1">Newsletter</h3>
+          <form action="">
+            <input
+              type="email"
+              placeholder="E-mail"
+              class="d-block form-control mb-1 w-100"
+            />
+            <button type="submit" class="btn btn-success">Inscrever</button>
+          </form>
+        </div>
+      </div>
+      <div class="container d-lg-flex justify-content-between">
+        <div class="mb-5 mb-lg-0">
+          <small>
+            &copy; 2026 Empresa XPTO - Todos os direitos reservados.
+          </small>
+        </div>
+        <div class="d-inline-block">
+          <ul class="d-flex column-gap-2">
+            <li>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
