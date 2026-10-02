@@ -22,5 +22,11 @@
     "descricao": "Descrição do produto...",
     "preco": 24.9,
     "imagem": "tesoura-de-poda.webp"
+  },
+  {
+    "nome": "Tesoura de poda",
+    "descricao": "Descrição do produto...",
+    "preco": 24.9,
+    "imagem": "tesoura-de-poda.webp"
   }
 ]
