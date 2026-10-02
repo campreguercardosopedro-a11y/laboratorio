@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Borrifador",
+    "descricao": "Descrição do produto...",
+    "preco": 19.9,
+    "imagem": "borrifador.webp"
+  },
+  {
+    "nome": "Cortador de grama",
+    "descricao": "Descrição do produto...",
+    "preco": 1990.0,
+    "imagem": "cortador-de-grama.jpg"
+  },
+  {
+    "nome": "Rastelo",
+    "descricao": "Descrição do produto...",
+    "preco": 29.9,
+    "imagem": "rastelo.webp"
+  },
+  {
+    "nome": "Tesoura de poda",
+    "descricao": "Descrição do produto...",
+    "preco": 24.9,
+    "imagem": "tesoura-de-poda.webp"
+  }
+]

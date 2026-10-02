@@ -5,16 +5,27 @@ header ul > li > a {
   padding: 35px 0;
   border-top: 5px solid transparent;
 }
+@media (max-width: 991px) {
+  header ul > li > a {
+    padding: 10px 0;
+    border-top: none;
+  }
+}
 header ul > li > a:hover {
   border-top-color: tomato;
 }
-@media(max-width:991px) {
+@media (max-width: 991px) {
   header {
     padding: 15px 0;
   }
+  header #menu {
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    margin-top: 15px;
+    padding-top: 15px;
+  }
 }
 .hero {
-  background-image: url("./img/section1-bg.jpg");
+  background-image: url("../img/section1-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -66,8 +77,13 @@ header ul > li > a:hover {
 .sobre li {
   border: 1px solid rgba(255, 255, 255, 0.25);
 }
-.produtos .d-flex > div {
-  width: 25%;
+@media (min-width: 992px) {
+  .produtos .d-lg-flex > div {
+    width: 25%;
+  }
+}
+.produtos .imagem {
+  aspect-ratio: 1/1;
 }
 @media (min-width: 992px) {
   .numeros .container > div {
@@ -186,7 +202,7 @@ header ul > li > a:hover {
 .blog p {
   line-height: 22.5px;
 }
-.dados .d-flex > div {
+.dados .d-lg-flex > div {
   width: 33.33%;
 }
 @media (max-width: 991px) {
@@ -209,10 +225,10 @@ header ul > li > a:hover {
   background-color: white;
   color: tomato;
 }
-@media(max-width:991px){
-footer {
-  text-align: center;
-}
+@media (max-width: 991px) {
+  footer {
+    text-align: center;
+  }
 }
 footer a {
   color: white;

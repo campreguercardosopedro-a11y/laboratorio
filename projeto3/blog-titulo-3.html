@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empresa XPTO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/framework.css" />
+  </head>
+  <body>
+    <header class="position-sticky bg-white shadow">
+      <div
+        class="container d-lg-flex align-items-center justify-content-between"
+      >
+        <div class="d-flex align-items-center justify-content-between">
+          <h1 class="text-success">Empresa XPTO</h1>
+          <div class="d-flex d-lg-none column-gap-3">
+            <a
+              href="./carrinho.html"
+              class="text-dark d-inline-block text-decoration-none position-relative"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span
+                class="bg-warning text-white px-1 rounded-1 position-absolute bottom-15 left-15"
+              >
+                0
+              </span>
+            </a>
+            <i class="fa-solid fa-bars" id="hamburguer"></i>
+          </div>
+        </div>
+        <nav class="d-none d-lg-block" id="menu">
+          <ul class="d-lg-flex list-unstyled column-gap-3">
+            <li>
+              <a
+                href="./index.html"
+                class="text-decoration-none text-dark d-inline-block"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="./sobre.html"
+                class="text-decoration-none text-dark d-inline-block"
+              >
+                Sobre
+              </a>
+            </li>
+            <li>
+              <a
+                href="./servicos.html"
+                class="text-decoration-none text-dark d-inline-block"
+              >
+                Serviços
+              </a>
+            </li>
+            <li>
+              <a
+                href="./produtos.html"
+                class="text-decoration-none text-dark d-inline-block"
+              >
+                Produtos
+              </a>
+            </li>
+            <li>
+              <a
+                href="./contato.html"
+                class="text-decoration-none text-dark d-inline-block"
+              >
+                Contato
+              </a>
+            </li>
+            <li class="d-none d-lg-block">
+              <a
+                href="./carrinho.html"
+                class="text-dark d-inline-block text-decoration-none position-relative"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span
+                  class="bg-warning text-white px-1 rounded-1 position-absolute top-1"
+                >
+                  0
+                </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="blog py-5 bg-light">
+      <div class="container py-5">
+        <h2 class="text-center text-uppercase fs-1 fw-light mb-5">Título 3</h2>
+        <div
+          style="background-image: url(&quot;./img/noticia3.webp&quot;)"
+          class="capa mb-5"
+        ></div>
+        <p class="mb-1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sunt
+          exercitationem ea temporibus, incidunt doloremque dolore officia
+          doloribus aut accusantium harum ut nisi animi expedita soluta libero
+          voluptatum voluptates quas?
+        </p>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-5">
+      <div class="container d-lg-flex justify-content-between py-5">
+        <div class="w-lg-25 mb-5 mb-lg-0">
+          <h3 class="mb-1">Menu</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./servicos.html">Serviços</a></li>
+            <li><a href="./produtos.html">Produtos</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="w-lg-25 mb-5 mb-lg-0">
+          <h3 class="mb-1">Produtos</h3>
+          <ul>
+            <li><a href="./produtos.html?categoria=1">Categoria A</a></li>
+            <li><a href="./produtos.html?categoria=2">Categoria B</a></li>
+          </ul>
+        </div>
+        <div class="w-lg-25 mb-5 mb-lg-0">
+          <h3 class="mb-1">Serviços</h3>
+          <ul>
+            <li>
+              <a href="./servicos-corte-e-manutencao.html">Corte e manutenção</a>
+            </li>
+            <li>
+              <a href="./servicos-adubacao-e-fertilizacao.html"
+                >Adubação e fertilização</a
+              >
+            </li>
+            <li>
+              <a href="./servicos-controle-de-pragas.html"
+                >Controle de pragas</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="w-lg-25">
+          <h3 class="mb-1">Newsletter</h3>
+          <form action="">
+            <input
+              type="email"
+              placeholder="E-mail"
+              class="d-block form-control mb-1 w-100"
+            />
+            <button type="submit" class="btn btn-success">Inscrever</button>
+          </form>
+        </div>
+      </div>
+      <div class="container d-lg-flex justify-content-between">
+        <div class="mb-5 mb-lg-0">
+          <small>
+            &copy; 2026 Empresa XPTO - Todos os direitos reservados.
+          </small>
+        </div>
+        <div class="d-inline-block">
+          <ul class="d-flex column-gap-2">
+            <li>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
