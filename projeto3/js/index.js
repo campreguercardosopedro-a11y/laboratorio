@@ -3,8 +3,8 @@ function adicionarProdutoAoCarrinho(id, nome, imagem, preco) {
   let produtoExistente = carrinho.find((produto) => produto.id === id);
   if (produtoExistente) {
     produtoExistente.quantidade++;
-  } else {
-    let novoProduto = {
+} else {
+  let novoProduto = {
       id: id,
       nome: nome,
       imagem: imagem,
