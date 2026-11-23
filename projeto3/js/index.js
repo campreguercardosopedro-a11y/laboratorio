@@ -14,6 +14,7 @@ function adicionarProdutoAoCarrinho(id, nome, imagem, preco) {
     carrinho.push(novoProduto);
   }
   localStorage.setItem("carrinho", JSON.stringify(carrinho));
+  atualizarContadorDeProdutosNoCarrinho();
 }
 window
   .fetch("http://127.0.0.1:5500/projeto3/api/produtos.json")
